@@ -300,7 +300,7 @@ def main():
                             fbit.pickup()
                     foodList = foods.sprites()
 
-        dt = clock.tick(FPS) / 100 # change in time is some function of FPS
+        dt = clock.tick(120) / 100 # change in time is some function of FPS
 
         pheroImg = pheroLayer.update(dt) # updates phero
 
